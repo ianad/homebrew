@@ -26,9 +26,6 @@
             "author":"mphil",
             "contents":[
                 {
-                    "name":"Table of Contents"
-                },
-                {
                     "name":"Common Races"
                 },
                 {
@@ -38,83 +35,70 @@
                     "name":"Exotic Races"
                 }
             ]
-        },
-        {
-            "name":"MP Catalogue of Classes",
-            "id":"MPCoC",
-            "source":"MPCoE",
-            "published":"2021-07-18",
-            "author":"mphil",
-            "contents":[
-
-            ]
-        },
-        {
-            "name":"MP Catalogue of Dragonmarks",
-            "id":"MPCoD",
-            "source":"MPCoE",
-            "published":"2021-07-18",
-            "author":"mphil",
-            "contents":[
-                
-            ]
         }
     ],
     "bookData":[
         {
-            "id":"MPCoE",
+            "id":"MPCoR",
             "source":"MPCoE",
             "data":[
                 {
                     "type":"section",
-                    "name":"Race Catalogue",
+                    "name":"Common Races",
                     "headers":[
-                        "Common Races",
-                        "Uncommon Races",
-                        "Exotic Races"
+                        "Beastfolk",
+                        "Dwarves",
+                        "Elves",
+                        "Gnomes",
+                        "Half-Dwarfs",
+                        "Half-Elfs",
+                        "Half-Goblinkin",
+                        "Half-Orcs",
+                        "Humans"
                     ]
                 },
                 {
                     "type":"section",
-                    "name":"Class Catalogue",
+                    "name":"Uncommon Races",
                     "headers":[
-                        "Artificer",
-                        "Barbarian",
-                        "Bard",
-                        "Card Master",
-                        "Cleric",
-                        "Druid",
-                        "Fighter",
-                        "Gunslinger",
-                        "Monk",
-                        "Mystic",
-                        "Paladin",
-                        "Ranger",
-                        "Rogue",
-                        "Sorcerer",
-                        "Warlock",
-                        "Wizard",
-                        "Fighting Styles"
+                        "Aarak",
+                        "Firbolgs",
+                        "Goblinkin",
+                        "Goliaths",
+                        "Half-Ogres",
+                        "Half-Trolls",
+                        "Harpies",
+                        "Lizardfolk",
+                        "Murgles",
+                        "Orcs",
+                        "Ranok",
+                        "Ssethik",
+                        "Tortle"
                     ]
                 },
                 {
                     "type":"section",
-                    "name":"Dragonmarks",
+                    "name":"Exotic Races",
                     "headers":[
-                        "Mark of Detection",
-                        "Mark of Finding",
-                        "Mark of Handling",
-                        "Mark of Healing",
-                        "Mark of Hospitality",
-                        "Mark of Making",
-                        "Mark of Passage",
-                        "Mark of Scribing",
-                        "Mark of Sentinel",
-                        "Mark of Shadow",
-                        "Mark of Storm",
-                        "Mark of Warding",
-                        "Aberrant Dragonmarks",
-                        "Greater Dragonmarks"
+                        "Aasimar",
+                        "Abberrantborn",
+                        "Centaurs",
+                        "Daywalkers",
+                        "Dragonborn",
+                        "Gargoyles",
+                        "Genasi",
+                        "Gith",
+                        "Gorgon",
+                        "Half-Fae",
+                        "Half-Illithid",
+                        "Hexblood",
+                        "Illithid",
+                        "Kalashtar",
+                        "Myconid",
+                        "Saurians",
+                        "Tieflings",
+                        "Warforged",
+                        "Yuan-Ti"
                     ]
                 }
             ]
