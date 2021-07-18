@@ -1,0 +1,123 @@
+{
+    "_meta":{
+        "sources":[
+            {
+                "json":"Catalogue of Everything",
+                "abbreviation":"MPCoE",
+                "full":"MP Catalogue of Everything",
+                "authors":[
+                    "mphil"
+                ],
+                "convertedBy":"ianad",
+                "version":"1.0.0",
+                "url":"",
+                "targetSchema":"1.6.3"
+            }
+        ],
+        "dateAdded":1626646439,
+        "dateLastModified":1626646439
+    },
+    "book":[
+        {
+            "name":"MP Catalogue of Races",
+            "id":"MPCoR",
+            "source":"MPCoE",
+            "published":"2021-07-18",
+            "author":"mphil",
+            "contents":[
+                {
+                    "name":"Table of Contents"
+                },
+                {
+                    "name":"Common Races"
+                },
+                {
+                    "name":"Uncommon Races"
+                },
+                {
+                    "name":"Exotic Races"
+                }
+            ]
+        },
+        {
+            "name":"MP Catalogue of Classes",
+            "id":"MPCoC",
+            "source":"MPCoE",
+            "published":"2021-07-18",
+            "author":"mphil",
+            "contents":[
+
+            ]
+        },
+        {
+            "name":"MP Catalogue of Dragonmarks",
+            "id":"MPCoD",
+            "source":"MPCoE",
+            "published":"2021-07-18",
+            "author":"mphil",
+            "contents":[
+                
+            ]
+        }
+    ],
+    "bookData":[
+        {
+            "id":"MPCoE",
+            "source":"MPCoE",
+            "data":[
+                {
+                    "type":"section",
+                    "name":"Race Catalogue",
+                    "headers":[
+                        "Common Races",
+                        "Uncommon Races",
+                        "Exotic Races"
+                    ]
+                },
+                {
+                    "type":"section",
+                    "name":"Class Catalogue",
+                    "headers":[
+                        "Artificer",
+                        "Barbarian",
+                        "Bard",
+                        "Card Master",
+                        "Cleric",
+                        "Druid",
+                        "Fighter",
+                        "Gunslinger",
+                        "Monk",
+                        "Mystic",
+                        "Paladin",
+                        "Ranger",
+                        "Rogue",
+                        "Sorcerer",
+                        "Warlock",
+                        "Wizard",
+                        "Fighting Styles"
+                    ]
+                },
+                {
+                    "type":"section",
+                    "name":"Dragonmarks",
+                    "headers":[
+                        "Mark of Detection",
+                        "Mark of Finding",
+                        "Mark of Handling",
+                        "Mark of Healing",
+                        "Mark of Hospitality",
+                        "Mark of Making",
+                        "Mark of Passage",
+                        "Mark of Scribing",
+                        "Mark of Sentinel",
+                        "Mark of Shadow",
+                        "Mark of Storm",
+                        "Mark of Warding",
+                        "Aberrant Dragonmarks",
+                        "Greater Dragonmarks"
+                    ]
+                }
+            ]
+        }
+    ]
+}
