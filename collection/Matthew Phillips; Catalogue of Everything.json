@@ -82,6 +82,125 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "MP Catalogue of Classes",
+            "id": "MPCatalogueOfClasses",
+            "source": "MPCatalogueOfEverything",
+            "published": "2021-07-18",
+            "author": "mphil",
+            "contents": [
+                {
+                    "name": "Artificer",
+                    "headers": [
+                        "Alchemist",
+                        "Archivist",
+                        "Armorer",
+                        "Artillerist",
+                        "Battle Smith",
+                        "Guntinker"
+                    ]
+                },
+                {
+                    "name": "Barbarian",
+                    "headers": []
+                },
+                {
+                    "name": "Bard",
+                    "headers": []
+                },
+                {
+                    "name": "Card Master",
+                    "headers": []
+                },
+                {
+                    "name": "Cleric",
+                    "headers": []
+                },
+                {
+                    "name": "Druid",
+                    "headers": []
+                },
+                {
+                    "name": "Fighter",
+                    "headers": []
+                },
+                {
+                    "name": "Gunslinger",
+                    "headers": []
+                },
+                {
+                    "name": "Monk",
+                    "headers": []
+                },
+                {
+                    "name": "Mystic",
+                    "headers": []
+                },
+                {
+                    "name": "Paladin",
+                    "headers": []
+                },
+                {
+                    "name": "Ranger",
+                    "headers": []
+                },
+                {
+                    "name": "Rogue",
+                    "headers": []
+                },
+                {
+                    "name": "Sorcerer",
+                    "headers": []
+                },
+                {
+                    "name": "Warlock",
+                    "headers": []
+                },
+                {
+                    "name": "Wizard",
+                    "headers": []
+                },
+                {
+                    "name": "Fighting Styles",
+                    "headers": []
+                }
+            ]
+        },
+        {
+            "name": "MP Catalogue of Dragonmarks",
+            "id": "MPCatalogueOfDragonmarks",
+            "source": "MPCatalogueOfEverything",
+            "published": "2021-07-18",
+            "author": "mphil",
+            "contents": [
+                {
+                    "name": "Dragonmarks and their Houses"
+                },
+                {
+                    "name": "The Dragonmarks",
+                    "headers": [
+                        "Mark of Detection",
+                        "Mark of Finding",
+                        "Mark of Handling",
+                        "Mark of Healing",
+                        "Mark of Hospitality",
+                        "Mark of Making",
+                        "Mark of Passage",
+                        "Mark of Scribing",
+                        "Mark of Shadow",
+                        "Mark of Storm",
+                        "Mark of Warding"
+                    ]
+                },
+                {
+                    "name": "Variant Dragonmarks",
+                    "headers": [
+                        "Aberrant Dragonmarks",
+                        "Greater Dragonmarks"
+                    ]
+                }
+            ]
         }
     ],
     "bookData": [
@@ -309,6 +428,120 @@
                             "type": "entries",
                             "name": "Yuan-Ti",
                             "entries": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "MPCatalogueOfClasses",
+            "source": "MPCatalogueOfEverything",
+            "data": []
+        },
+        {
+            "id": "MPCatalogueOfDragonmarks",
+            "source": "MPCatalogueOfEverything",
+            "data": [
+                {
+                    "name": "Dragonmarks and their Houses",
+                    "type": "section",
+                    "entries": [
+                        {
+                            "type": "table",
+                            "colLabels": [
+                                "Dragonmark",
+                                "House",
+                                "Race",
+                                "Specialties",
+                                "Headquarters"
+                            ],
+                            "colStyles": "col-6-text-left",
+                            "rows": [
+                                [
+                                    "Detection",
+                                    "Medani",
+                                    "Goblinkin",
+                                    "Investigation, Risk Management",
+                                    "Rhukaan Draal, Darguun"
+                                ],
+                                [
+                                    "Finding",
+                                    "Tharashk",
+                                    "Orc",
+                                    "Bounties, Prospecting",
+                                    "Zarash'ak, Shadow Marches"
+                                ],
+                                [
+                                    "Handling",
+                                    "Vadalis",
+                                    "Firbolg",
+                                    "Animal Breeding and Training",
+                                    "Varna, Eldeen Reaches"
+                                ],
+                                [
+                                    "Healing",
+                                    "Jorasco",
+                                    "Tortle",
+                                    "Healing",
+                                    "Newthrone, Q'Barra"
+                                ],
+                                [
+                                    "Hospitality",
+                                    "Ghallanda",
+                                    "Beastfolk",
+                                    "Food, Lodging",
+                                    "Gatherhold, Talenta Plains"
+                                ],
+                                [
+                                    "Making",
+                                    "Cannith",
+                                    "Human",
+                                    "Manufacturing",
+                                    "Eston, Cyre"
+                                ],
+                                [
+                                    "Passage",
+                                    "Orien",
+                                    "Human",
+                                    "Land Transportation",
+                                    "Passage, Aundair"
+                                ],
+                                [
+                                    "Scribing",
+                                    "Sivis",
+                                    "Gnome",
+                                    "Communication, Verification",
+                                    "Korranberg, Zilargo"
+                                ],
+                                [
+                                    "Sentinel",
+                                    "Deneith",
+                                    "Goliath",
+                                    "Bodyguards, Mercenaries",
+                                    "Graywall, Droaaam"
+                                ],
+                                [
+                                    "Shadow",
+                                    "Phiarlan",
+                                    "Elf",
+                                    "Entertainment, Espionage, Assassination",
+                                    "Taer Valaestas, Valenar"
+                                ],
+                                [
+                                    "Storm",
+                                    "Lyrandar",
+                                    "Aarak",
+                                    "Air and Sea Transportation",
+                                    "Regalport, Lhazaar Principalities"
+                                ],
+                                [
+                                    "Warding",
+                                    "Kundarak",
+                                    "Dwarf",
+                                    "Banking, Storage, Prisons",
+                                    "Korunda Gate, Mror Holds"
+                                ]
+                            ]
                         }
                     ]
                 }
