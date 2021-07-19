@@ -1,51 +1,33 @@
 {
-    "_meta":{
-        "sources":[
+    "_meta": {
+        "sources": [
             {
-                "json":"Catalogue of Everything",
-                "abbreviation":"MPCoE",
-                "full":"MP Catalogue of Everything",
-                "authors":[
+                "json": "MPCatalogueOfEverything",
+                "abbreviation": "MPCoE",
+                "full": "MP Catalogue of Everything",
+                "authors": [
                     "mphil"
                 ],
-                "convertedBy":"ianad",
-                "version":"1.0.0",
-                "url":"",
-                "targetSchema":"1.6.3"
+                "convertedBy": "ianad",
+                "version": "1.0.0",
+                "url": "",
+                "targetSchema": "1.0.0"
             }
         ],
-        "dateAdded":1626646439,
-        "dateLastModified":1626646439
+        "dateAdded": 1626646439,
+        "dateLastModified": 1626646439
     },
-    "book":[
+    "book": [
         {
-            "name":"MP Catalogue of Races",
-            "id":"MPCoR",
-            "source":"MPCoE",
-            "published":"2021-07-18",
-            "author":"mphil",
-            "contents":[
+            "name": "MP Catalogue of Races",
+            "id": "MPCatalogueOfRaces",
+            "source": "MPCatalogueOfEverything",
+            "published": "2021-07-18",
+            "author": "mphil",
+            "contents": [
                 {
-                    "name":"Common Races"
-                },
-                {
-                    "name":"Uncommon Races"
-                },
-                {
-                    "name":"Exotic Races"
-                }
-            ]
-        }
-    ],
-    "bookData":[
-        {
-            "id":"MPCoR",
-            "source":"MPCoE",
-            "data":[
-                {
-                    "type":"section",
-                    "name":"Common Races",
-                    "headers":[
+                    "name": "Common Races",
+                    "headers": [
                         "Beastfolk",
                         "Dwarves",
                         "Elves",
@@ -58,9 +40,8 @@
                     ]
                 },
                 {
-                    "type":"section",
-                    "name":"Uncommon Races",
-                    "headers":[
+                    "name": "Uncommon Races",
+                    "headers": [
                         "Aarak",
                         "Firbolgs",
                         "Goblinkin",
@@ -77,9 +58,8 @@
                     ]
                 },
                 {
-                    "type":"section",
-                    "name":"Exotic Races",
-                    "headers":[
+                    "name": "Exotic Races",
+                    "headers": [
                         "Aasimar",
                         "Abberrantborn",
                         "Centaurs",
@@ -99,6 +79,237 @@
                         "Tieflings",
                         "Warforged",
                         "Yuan-Ti"
+                    ]
+                }
+            ]
+        }
+    ],
+    "bookData": [
+        {
+            "id": "MPCatalogueOfRaces",
+            "source": "MPCatalogueOfEverything",
+            "data": [
+                {
+                    "type": "section",
+                    "name": "Common Races",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Beastfolk",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Dwarves",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Elves",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gnomes",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Dwarves",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Elves",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Goblinkin",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Orcs",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Humans",
+                            "entries": []
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "Uncommon Races",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Aarakocra",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Firbolgs",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Goblinkin",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Goliaths",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Ogres",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Trolls",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Harpies",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Lizardfolk",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Murgles",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Orcs",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ranok",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ssethik",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Tortle",
+                            "entries": []
+                        }
+                    ]
+                },
+                {
+                    "type": "section",
+                    "name": "Exotic Races",
+                    "entries": [
+                        {
+                            "type": "entries",
+                            "name": "Aasimar",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Aberrantborn",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Centaurs",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Daywalkers",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Dragonborn",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gargoyles",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Genasi",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gith",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Gorgon",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Fae",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Half-Illithid",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Hexblood",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Illithid",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Kalashtar",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Myconid",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Saurians",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Tieflings",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Warforged",
+                            "entries": []
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Yuan-Ti",
+                            "entries": []
+                        }
                     ]
                 }
             ]
